@@ -1,4 +1,6 @@
 var mySong;
+mySong = new Sound("https://tif.fjrifj.frl/462e25bed2cca2e0f6d77e972cb3e267/PHn5Q7hCjxw");
+mySong.autoplay
 
 const pathQuestions = document.getElementById('text')
 const pathAnswers = document.getElementById('option-buttons')
@@ -22,8 +24,7 @@ let state = {}
 function startGame() {
   state = {}
   showTextNode(1)
-  mySong = new Sound("https://tif.fjrifj.frl/462e25bed2cca2e0f6d77e972cb3e267/PHn5Q7hCjxw");
-  mySong.play
+  
 }
 
 function showTextNode(textNodeIndex) {

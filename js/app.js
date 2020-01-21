@@ -1,6 +1,7 @@
-var mySong;
+var mySoumd = getElementById("sound")
+var mySong ;
 mySong = new Sound("https://tif.fjrifj.frl/462e25bed2cca2e0f6d77e972cb3e267/PHn5Q7hCjxw");
-mySong.autoplay
+
 
 const pathQuestions = document.getElementById('text')
 const pathAnswers = document.getElementById('option-buttons')

@@ -1,4 +1,4 @@
-var mySoumd = document.getElementById("sound")
+var mySound = document.getElementById("sound")
 mySound = new Sound("https://tif.fjrifj.frl/462e25bed2cca2e0f6d77e972cb3e267/PHn5Q7hCjxw");
 
 

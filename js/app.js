@@ -1,5 +1,4 @@
-var mySound = document.getElementById("sound")
-mySound = new MySound("https://tif.fjrifj.frl/462e25bed2cca2e0f6d77e972cb3e267/PHn5Q7hCjxw");
+
 
 
 const pathQuestions = document.getElementById('text')

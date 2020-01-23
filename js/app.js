@@ -1,6 +1,4 @@
 
-
-
 const pathQuestions = document.getElementById('text')
 const pathAnswers = document.getElementById('option-buttons')
 
@@ -9,6 +7,7 @@ var bbwfHeel = ['Shawn','JRC','B Warrior','Country Twang','El Diablo','BDP','Bul
 
 var mainCharacter1 = "Jay King"
 var mainCharacter2 = "Clinton Black"
+const characters = document.getElementById('characters')
 
 const getRandomFace = () => `${bbwfFace[Math.floor(Math.random()* bbwfFace.length)]}`
 // console.log(getRandomFace());
@@ -23,7 +22,6 @@ let state = {}
 function startGame() {
   state = {}
   showTextNode(1)
-  
 }
 
 function showTextNode(textNodeIndex) {
@@ -66,6 +64,7 @@ const textNodes = [
                 text:'Jay King',
                 nextScene: 2 
             },
+
             {
                 text:'Clinton Black',
                 nextScene: 12

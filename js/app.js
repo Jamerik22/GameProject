@@ -7,7 +7,13 @@ var bbwfHeel = ['Shawn','JRC','B Warrior','Country Twang','El Diablo','BDP','Bul
 
 var mainCharacter1 = "Jay King"
 var mainCharacter2 = "Clinton Black"
-const characters = document.getElementById('characters')
+
+function imgCharacter() {
+    $('#characters').show
+}
+
+
+
 
 const getRandomFace = () => `${bbwfFace[Math.floor(Math.random()* bbwfFace.length)]}`
 // console.log(getRandomFace());
@@ -317,7 +323,7 @@ const textNodes = [
     },
     {
         id: 21,
-        text: " 'Part 2 : The Black Kings'(In this part you play as both King and Black). Jamerik 'the CRUTCH' Crutch, the general manager, has issued a huge main event where " + mainCharacter1 + " has to face one half of the tag champs, " + getRandomHeel() + " in a none title match. at the same time "+ mainCharacter2 + " has a match against" + getRandomHeel() + " in a none title match to start the night off. The tag champs are unliked by the fans and the roster alike. They always find away to cheat for each other. " + mainCharacter2 + " walks out alone while his opponent walks out with tag partner.  ",
+        text: " 'Part 2 : The Black Kings'(In this part you play as both King and Black). Jamerik 'the CRUTCH' Crutch, the general manager, has issued a huge main event where " + mainCharacter1 + " has to face one half of the tag champs, " + getRandomHeel() + " in a none title match. at the same time " + mainCharacter2 + " has a match against" + getRandomHeel() + " in a none title match to start the night off. The tag champs are unliked by the fans and the roster alike. They always find away to cheat for each other. " + mainCharacter2 + " walks out alone while his opponent walks out with tag partner.  ",
         options: [
             {
                 text:'fight opponent',

@@ -38,3 +38,6 @@ body{
 .btn:hover{
     background-color: goldenrod;
 }
+#title{
+    margin-left: 350px;
+}
